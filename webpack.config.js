@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require('webpack');
 
 const urlDev="https://localhost:3000";
-const urlProd="https://olmd.chunliu.me";
+const urlProd="http://dmeatte-aq.github.io/outlook-markdown/dist";
 
 module.exports = async (env, options)  => {
   const dev = options.mode === "development";
